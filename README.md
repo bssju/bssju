@@ -28,6 +28,7 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 ## Certifications
 
 - Google Professional Data Analytics Certificate (2026)
+- CDPO 3 ed. Estatística e Otimização para Ciência de Dados e Pesquisa Operacional — ICMC/USP
 - Engenharia de Prompt para Engenheiros de Software — MBA USP/Esalq
 - Introdução ao Machine Learning com Python — MBA USP/Esalq
 - Python: Do Básico ao Avançado com Estudos de Caso — ICMC/USP
