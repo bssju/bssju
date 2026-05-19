@@ -1,9 +1,3 @@
-# Juliana Burato
-
-Doutora em Ciências pela USP em transição para Dados. Experiência em modelagem estatística, inferência causal e machine learning aplicado. Atualmente cursando MBA em Data Science (USP/Esalq) e Especialização em Data Science (Unicamp).
-
----
-
 ## Skills
 
 **Languages & Tools**  
