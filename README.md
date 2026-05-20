@@ -15,15 +15,15 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 
 | Project | Description | Tools |
 |---|---|---|
-| [Paid Media — Attribution Modeling & Budget Optimization](https://github.com/bssju/media-paga-attribution) | Multi-touch attribution across 5 channels comparing Last-Click, Linear, Time-Decay and Shapley Values. Budget optimization with SLSQP (continuous) and ILP (discrete). Shapley reveals Google Display undervalued by 9.5 p.p. vs. Last-Click; reallocation yields +14.3% expected revenue with no budget increase. | Python, SciPy, PuLP, Scikit-learn |
-| [IBM HR Analytics — Causal Inference](https://github.com/bssju/ibm-hr-causal-inference) | Causal analysis to determine whether overtime directly causes attrition or is confounded by job level and salary. ATE of 21.1% after adjustment. Backdoor criterion, PSM, Double ML and Causal Forest. | Python, DoWhy, EconML |
-| [House Prices — Bayesian Optimization + Multiobjective](https://github.com/bssju/house-prices-bayesian-multiobjective) | Bayesian hyperparameter optimization with Optuna (RMSLE 0.12436) and multiobjective feature selection with NSGA-II — Pareto frontier between performance and interpretability. | Python, LightGBM, Optuna, pymoo |
-| [House Prices — ML in Production](https://github.com/bssju/house-prices-mlops) | MLOps pipeline with experiment tracking (MLflow), REST API (FastAPI) and data drift monitoring (Evidently). Served via Docker Compose. | Python, LightGBM, MLflow, FastAPI, Evidently, Docker |
-| [House Prices — Advanced Regression](https://github.com/bssju/house-prices-kaggle) | LightGBM regression model to predict house sale prices. RMSLE: 0.12949 on Kaggle. | Python, LightGBM, Scikit-learn |
-| [Digit Recognizer — MNIST](https://github.com/bssju/digit-recognizer-kaggle) | MLP neural network to classify handwritten digits. Accuracy: 98.089% on Kaggle. | Python, Keras, Scikit-learn |
-| [Titanic — Machine Learning from Disaster](https://github.com/bssju/titanic-kaggle) | Binary classification with Random Forest to predict survival. Accuracy: 78% on Kaggle. | Python, Scikit-learn |
-| [Disaster Tweets — NLP](https://github.com/bssju/disaster-tweets-kaggle) | Binary classification with Word2Vec + Ensemble to identify real disaster tweets. F1-Score: 0.80324 on Kaggle. | Python, Gensim, NLTK, Scikit-learn |
-| [CRM Sales Dashboard](https://github.com/bssju/crm-sales-dashboard) | Power BI dashboard analyzing 8,800 CRM opportunities. Total revenue R$10M, 63% conversion rate. | Power BI, DAX, Power Query |
+| [Which Channel Really Converts? — Attribution Modeling & Media Budget Optimization](https://github.com/bssju/qual-canal-realmente-converte) | Comparison of four attribution models across paid media channels. Last-Click overvalued Google Search and ignored Display. With correct attribution and allocation optimization, expected return increases by 14.3% with no additional investment. | Python, SciPy, PuLP, Scikit-learn, Shapley Values |
+| [Does Overtime Drive Attrition? — Causal Inference Analysis](https://github.com/bssju/hora-extra-aumenta-a-rotatividade-de-funcionariose) | Analysis to determine whether overtime directly causes employee attrition or whether other factors such as job level and salary explain the relationship. Using three independent causal estimation methods, the direct effect of overtime on attrition was +21.1% — confirmed in robustness tests. | Python, DoWhy, EconML |
+| **Series: House Price Prediction** — *Three projects in progression — from the initial model to production deployment with continuous monitoring.* | | |
+| &nbsp;&nbsp;&nbsp;[1. Base Model — Regression with LightGBM](https://github.com/bssju/1-construcao-do-modelo-base-regressao) | Model to predict house sale prices based on 236 property features. Includes data cleaning, creation of new variables (total area, house age, renovation history) and hyperparameter tuning. Result: RMSLE of 0.12949 on Kaggle. | Python, LightGBM, Scikit-learn, Pandas, Feature Engineering, GridSearchCV |
+| &nbsp;&nbsp;&nbsp;[2. Model Optimization — Hyperparameter Search & Feature Selection](https://github.com/bssju/2-extensao-do-modelo) | Extension of the base model with intelligent hyperparameter search (80 trials) and multiobjective feature selection. Reduced 65% of features with minimal precision loss. 3.96% improvement in result. | Python, LightGBM, Optuna, pymoo, Scikit-learn |
+| &nbsp;&nbsp;&nbsp;[3. Model in Production — API, Versioning & Monitoring](https://github.com/bssju/3-modelo-em-producaos) | Final stage of the series: trained model, registered with versioning, served via REST API and monitored for data drift over time. Full infrastructure runs in Docker containers. RMSLE: 0.12436. | Python, LightGBM, FastAPI, MLflow, Docker, Evidently |
+| [Sales Dashboard — Analysis of 8,800 Opportunities in Power BI](https://github.com/bssju/dashboard-de-vendas) | Interactive dashboard built from real CRM data with 8,800 sales opportunities. Modeling of 4 tables, creation of metrics and visualizations of revenue, conversion rate (63%) and performance by seller, product and region. | Power BI, DAX, Power Query |
+| [Disaster Tweet Detection — NLP Classification Model](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Model to automatically classify whether a tweet reports a real disaster or not. Includes text cleaning, linguistic feature extraction and combination of three ensemble algorithms. Result: F1-Score of 0.80 on Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
+| [Handwritten Digit Recognition — Neural Network with 98% Accuracy](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Neural network trained to identify handwritten digits (0–9) from images. Includes data augmentation to improve generalization and regularization techniques to prevent overfitting. Result: 98% accuracy on Kaggle. | Python, Keras, TensorFlow |
 
 ---
 
@@ -56,6 +56,10 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 - Python — Kaggle
 
 ---
+
+## Contact
+
+[LinkedIn](https://linkedin.com/in/julianaburato) · buratojuliana@gmail.com
 
 ## Contact
 
