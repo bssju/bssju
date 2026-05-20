@@ -17,7 +17,7 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 |---|---|---|
 | [Which Channel Really Converts? — Attribution Modeling & Media Budget Optimization](https://github.com/bssju/qual-canal-realmente-converte) | Comparison of four attribution models across paid media channels. Last-Click overvalued Google Search and ignored Display. With correct attribution and allocation optimization, expected return increases by 14.3% with no additional investment. | Python, SciPy, PuLP, Scikit-learn, Shapley Values |
 | [Does Overtime Drive Attrition? — Causal Inference Analysis](https://github.com/bssju/hora-extra-aumenta-a-rotatividade-de-funcionariose) | Analysis to determine whether overtime directly causes employee attrition or whether other factors such as job level and salary explain the relationship. Using three independent causal estimation methods, the direct effect of overtime on attrition was +21.1% — confirmed in robustness tests. | Python, DoWhy, EconML |
-| **Series: House Price Prediction** — *Three projects in progression — from the initial model to production deployment with continuous monitoring.* | | |
+| **Series: House Price Prediction** — *Three projects in progression — from the initial model to production deployment with continuous monitoring.* |
 | &nbsp;&nbsp;&nbsp;[1. Base Model — Regression with LightGBM](https://github.com/bssju/1-construcao-do-modelo-base-regressao) | Model to predict house sale prices based on 236 property features. Includes data cleaning, creation of new variables (total area, house age, renovation history) and hyperparameter tuning. Result: RMSLE of 0.12949 on Kaggle. | Python, LightGBM, Scikit-learn, Pandas, Feature Engineering, GridSearchCV |
 | &nbsp;&nbsp;&nbsp;[2. Model Optimization — Hyperparameter Search & Feature Selection](https://github.com/bssju/2-extensao-do-modelo) | Extension of the base model with intelligent hyperparameter search (80 trials) and multiobjective feature selection. Reduced 65% of features with minimal precision loss. 3.96% improvement in result. | Python, LightGBM, Optuna, pymoo, Scikit-learn |
 | &nbsp;&nbsp;&nbsp;[3. Model in Production — API, Versioning & Monitoring](https://github.com/bssju/3-modelo-em-producaos) | Final stage of the series: trained model, registered with versioning, served via REST API and monitored for data drift over time. Full infrastructure runs in Docker containers. RMSLE: 0.12436. | Python, LightGBM, FastAPI, MLflow, Docker, Evidently |
@@ -56,10 +56,6 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 - Python — Kaggle
 
 ---
-
-## Contact
-
-[LinkedIn](https://linkedin.com/in/julianaburato) · buratojuliana@gmail.com
 
 ## Contact
 
