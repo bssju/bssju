@@ -34,25 +34,20 @@ Exploratory Data Analysis · Feature Engineering · Classification · Regression
 | Specialization — Data Science | Unicamp | 2026 – 2027 (in progress) |
 | Postdoctoral Researcher — Analytical Chemistry | USP / IFSC | 2022 – 2023 |
 | PhD — Sciences | USP / IQSC | 2018 – 2022 |
-| Bachelor — Chemistry (Environmental Chemistry) | USP | 2013 – 2017 |
+| Bachelor — Chemistry | USP / IQSC | 2013 – 2017 |
 
 ---
 
 ## Certifications
 
 - Google Professional Data Analytics Certificate (2026)
+- CDPO 3 ed. Estatística e Otimização para Ciência de Dados e Pesquisa Operacional — ICMC/USP
 - Engenharia de Prompt para Engenheiros de Software — MBA USP/Esalq
 - Introdução ao Machine Learning com Python — MBA USP/Esalq
 - Python: Do Básico ao Avançado com Estudos de Caso — ICMC/USP
 - 9ª Escola Avançada de Big Data Analysis — ICMC/USP
 - Análise de Dados | Primeiros passos em Python — PrograMaria
-- Time Series — Kaggle
-- Feature Engineering — Kaggle
-- Intro to Deep Learning — Kaggle
-- Intermediate Machine Learning — Kaggle
-- Intro to Machine Learning — Kaggle
-- Pandas — Kaggle
-- Python — Kaggle
+- Time Series, Feature Engineering, Intro to Deep Learning, Intermediate Machine Learning, Intro to Machine Learning, Pandas, Python — Kaggle
 
 ---
 
