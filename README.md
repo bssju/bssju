@@ -1,56 +1,56 @@
-## Skills
+## Habilidades
 
-**Languages & Tools**  
+**Linguagens e Ferramentas**  
 Python · SQL · Power BI · Excel · Git · Docker
 
-**Libraries & Frameworks**  
+**Bibliotecas e Frameworks**  
 Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · LightGBM · Keras · NLTK · Gensim · Optuna · pymoo · MLflow · FastAPI · Evidently · DoWhy · EconML · SciPy · PuLP
 
-**Methods**  
-Exploratory Data Analysis · Feature Engineering · Classification · Regression · Natural Language Processing · Ensemble Methods · Bayesian Optimization · Multiobjective Optimization · Pareto Analysis · ML in Production · Experiment Tracking · Data Drift Monitoring · Data Visualization · ETL · DAX / Power Query · Causal Inference · Causal DAG Modeling · Propensity Score Matching · Double Machine Learning · Heterogeneous Treatment Effects · Attribution Modeling · Shapley Values · Budget Optimization · Integer Linear Programming
+**Métodos**  
+Análise Exploratória de Dados · Engenharia de Features · Classificação · Regressão · Processamento de Linguagem Natural · Métodos Ensemble · Otimização Bayesiana · Otimização Multiobjetivo · Análise de Pareto · ML em Produção · Rastreamento de Experimentos · Monitoramento de Deriva de Dados · Visualização de Dados · ETL · DAX / Power Query · Inferência Causal · Modelagem de DAG Causal · Propensity Score Matching · Double Machine Learning · Efeitos Heterogêneos de Tratamento · Modelagem de Atribuição · Valores de Shapley · Otimização de Budget · Programação Linear Inteira
 
 ---
 
-## Projects
+## Projetos
 
-| Project | Description | Tools |
+| Projeto | Descrição | Ferramentas |
 |---|---|---|
-| [Which Channel Really Converts? — Attribution Modeling & Media Budget Optimization](https://github.com/bssju/qual-canal-realmente-converte) | Comparison of four attribution models across paid media channels. Last-Click overvalued Google Search and ignored Display. With correct attribution and allocation optimization, expected return increases by 14.3% with no additional investment. | Python, SciPy, PuLP, Scikit-learn, Shapley Values |
-| [Does Overtime Drive Attrition? — Causal Inference Analysis](https://github.com/bssju/hora-extra-aumenta-a-rotatividade-de-funcionariose) | Analysis to determine whether overtime directly causes employee attrition or whether other factors such as job level and salary explain the relationship. Using three independent causal estimation methods, the direct effect of overtime on attrition was +21.1% — confirmed in robustness tests. | Python, DoWhy, EconML |
-| &nbsp;&nbsp;&nbsp;[1. Base Model — Regression with LightGBM](https://github.com/bssju/1-construcao-do-modelo-base-regressao) | Model to predict house sale prices based on 236 property features. Includes data cleaning, creation of new variables (total area, house age, renovation history) and hyperparameter tuning. Result: RMSLE of 0.12949 on Kaggle. | Python, LightGBM, Scikit-learn, Pandas, Feature Engineering, GridSearchCV |
-| &nbsp;&nbsp;&nbsp;[2. Model Optimization — Hyperparameter Search & Feature Selection](https://github.com/bssju/2-extensao-do-modelo) | Extension of the base model with intelligent hyperparameter search (80 trials) and multiobjective feature selection. Reduced 65% of features with minimal precision loss. 3.96% improvement in result. | Python, LightGBM, Optuna, pymoo, Scikit-learn |
-| &nbsp;&nbsp;&nbsp;[3. Model in Production — API, Versioning & Monitoring](https://github.com/bssju/3-modelo-em-producaos) | Final stage of the series: trained model, registered with versioning, served via REST API and monitored for data drift over time. Full infrastructure runs in Docker containers. RMSLE: 0.12436. | Python, LightGBM, FastAPI, MLflow, Docker, Evidently |
-| [Sales Dashboard — Analysis of 8,800 Opportunities in Power BI](https://github.com/bssju/dashboard-de-vendas) | Interactive dashboard built from real CRM data with 8,800 sales opportunities. Modeling of 4 tables, creation of metrics and visualizations of revenue, conversion rate (63%) and performance by seller, product and region. | Power BI, DAX, Power Query |
-| [Disaster Tweet Detection — NLP Classification Model](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Model to automatically classify whether a tweet reports a real disaster or not. Includes text cleaning, linguistic feature extraction and combination of three ensemble algorithms. Result: F1-Score of 0.80 on Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
-| [Handwritten Digit Recognition — Neural Network with 98% Accuracy](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Neural network trained to identify handwritten digits (0–9) from images. Includes data augmentation to improve generalization and regularization techniques to prevent overfitting. Result: 98% accuracy on Kaggle. | Python, Keras, TensorFlow |
+| [Qual Canal Realmente Converte? — Modelagem de Atribuição e Otimização de Budget de Mídia](https://github.com/bssju/qual-canal-realmente-converte) | Comparação de quatro modelos de atribuição em canais de mídia paga. O Last-Click supervalorizou o Google Search e ignorou o Display. Com atribuição correta e otimização de alocação, o retorno esperado aumenta 14,3% sem investimento adicional. | Python, SciPy, PuLP, Scikit-learn, Valores de Shapley |
+| [Hora Extra Aumenta a Rotatividade? — Análise de Inferência Causal](https://github.com/bssju/hora-extra-aumenta-a-rotatividade-de-funcionariose) | Análise para determinar se a hora extra causa diretamente a rotatividade de funcionários ou se outros fatores, como nível do cargo e salário, explicam a relação. Com três métodos independentes de estimação causal, o efeito direto da hora extra sobre a rotatividade foi de +21,1% — confirmado em testes de robustez. | Python, DoWhy, EconML |
+| &nbsp;&nbsp;&nbsp;[1. Modelo Base — Regressão com LightGBM](https://github.com/bssju/1-construcao-do-modelo-base-regressao) | Modelo para prever preços de venda de imóveis com base em 236 características. Inclui limpeza de dados, criação de novas variáveis (área total, idade do imóvel, histórico de reforma) e ajuste de hiperparâmetros. Resultado: RMSLE de 0,12949 no Kaggle. | Python, LightGBM, Scikit-learn, Pandas, Engenharia de Features, GridSearchCV |
+| &nbsp;&nbsp;&nbsp;[2. Otimização do Modelo — Busca de Hiperparâmetros e Seleção de Features](https://github.com/bssju/2-extensao-do-modelo) | Extensão do modelo base com busca inteligente de hiperparâmetros (80 tentativas) e seleção multiobjetivo de features. Redução de 65% das features com perda mínima de precisão. Melhoria de 3,96% no resultado. | Python, LightGBM, Optuna, pymoo, Scikit-learn |
+| &nbsp;&nbsp;&nbsp;[3. Modelo em Produção — API, Versionamento e Monitoramento](https://github.com/bssju/3-modelo-em-producaos) | Etapa final da série: modelo treinado, registrado com versionamento, servido via API REST e monitorado para deriva de dados ao longo do tempo. Toda a infraestrutura roda em contêineres Docker. RMSLE: 0,12436. | Python, LightGBM, FastAPI, MLflow, Docker, Evidently |
+| [Dashboard de Vendas — Análise de 8.800 Oportunidades no Power BI](https://github.com/bssju/dashboard-de-vendas) | Dashboard interativo construído a partir de dados reais de CRM com 8.800 oportunidades de vendas. Modelagem de 4 tabelas, criação de métricas e visualizações de receita, taxa de conversão (63%) e desempenho por vendedor, produto e região. | Power BI, DAX, Power Query |
+| [Detecção de Tweets sobre Desastres — Modelo de Classificação com NLP](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Modelo para classificar automaticamente se um tweet relata um desastre real ou não. Inclui limpeza de texto, extração de features linguísticas e combinação de três algoritmos ensemble. Resultado: F1-Score de 0,80 no Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
+| [Reconhecimento de Dígitos Manuscritos — Rede Neural com 98% de Acurácia](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Rede neural treinada para identificar dígitos manuscritos (0–9) a partir de imagens. Inclui aumento de dados para melhorar a generalização e técnicas de regularização para evitar overfitting. Resultado: 98% de acurácia no Kaggle. | Python, Keras, TensorFlow |
 
 ---
 
-## Education
+## Formação
 
-| Degree | Institution | Period |
+| Grau | Instituição | Período |
 |---|---|---|
-| MBA — Data Science, Artificial Intelligence & Analytics | USP/Esalq | 2026 – 2027 (in progress) |
-| Specialization — Data Science | Unicamp | 2026 – 2027 (in progress) |
-| Postdoctoral Researcher — Analytical Chemistry | USP / IFSC | 2022 – 2023 |
-| PhD — Sciences | USP / IQSC | 2018 – 2022 |
-| Bachelor — Chemistry | USP / IQSC | 2013 – 2017 |
+| MBA — Ciência de Dados, Inteligência Artificial e Analytics | USP/Esalq | 2026 – 2027 (em andamento) |
+| Especialização — Ciência de Dados | Unicamp | 2026 – 2027 (em andamento) |
+| Pesquisador de Pós-Doutorado — Química Analítica | USP / IFSC | 2022 – 2023 |
+| Doutorado — Ciências | USP / IQSC | 2018 – 2022 |
+| Bacharelado — Química | USP / IQSC | 2013 – 2017 |
 
 ---
 
-## Certifications
+## Certificações
 
-- Google Professional Data Analytics Certificate (2026)
-- CDPO 3 ed. Estatística e Otimização para Ciência de Dados e Pesquisa Operacional — ICMC/USP
+- Certificado Profissional em Análise de Dados do Google (2026)
+- CDPO 3ª ed. Estatística e Otimização para Ciência de Dados e Pesquisa Operacional — ICMC/USP
 - Engenharia de Prompt para Engenheiros de Software — MBA USP/Esalq
 - Introdução ao Machine Learning com Python — MBA USP/Esalq
 - Python: Do Básico ao Avançado com Estudos de Caso — ICMC/USP
 - 9ª Escola Avançada de Big Data Analysis — ICMC/USP
 - Análise de Dados | Primeiros passos em Python — PrograMaria
-- Time Series, Feature Engineering, Intro to Deep Learning, Intermediate Machine Learning, Intro to Machine Learning, Pandas, Python — Kaggle
+- Séries Temporais, Engenharia de Features, Introdução a Deep Learning, Machine Learning Intermediário, Introdução ao Machine Learning, Pandas, Python — Kaggle
 
 ---
 
-## Contact
+## Contato
 
 [LinkedIn](https://linkedin.com/in/julianaburato) · buratojuliana@gmail.com
