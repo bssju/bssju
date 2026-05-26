@@ -7,7 +7,7 @@ Python · SQL · Power BI · Excel · Git · Docker
 Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · LightGBM · Keras · NLTK · Gensim · Optuna · pymoo · MLflow · FastAPI · Evidently · DoWhy · EconML · SciPy · PuLP
 
 **Métodos**  
-Análise Exploratória de Dados · Engenharia de Features · Classificação · Regressão · Processamento de Linguagem Natural · Métodos Ensemble · Otimização Bayesiana · Otimização Multiobjetivo · Análise de Pareto · ML em Produção · Rastreamento de Experimentos · Monitoramento de Deriva de Dados · Visualização de Dados · ETL · DAX / Power Query · Inferência Causal · Modelagem de DAG Causal · Propensity Score Matching · Double Machine Learning · Efeitos Heterogêneos de Tratamento · Modelagem de Atribuição · Valores de Shapley · Otimização de Budget · Programação Linear Inteira
+Análise Exploratória de Dados · Engenharia de Features · Classificação · Regressão · Processamento de Linguagem Natural · Métodos Ensemble · Otimização Bayesiana · Otimização Multiobjetivo · Análise de Pareto · ML em Produção · Rastreamento de Experimentos · Monitoramento de Deriva de Dados · Visualização de Dados · ETL · DAX / Power Query · Inferência Causal · Modelagem de DAG Causal · Propensity Score Matching · Double Machine Learning · Efeitos Heterogêneos de Tratamento · Modelagem de Atribuição · Valores de Shapley · Otimização de Budget · Programação Linear Inteira · Quimiometria · Pré-processamento Espectral · Regressão PLS · Validação Cruzada K-Fold
 
 ---
 
@@ -23,6 +23,7 @@ Análise Exploratória de Dados · Engenharia de Features · Classificação · 
 | [Dashboard de Vendas — Análise de 8.800 Oportunidades no Power BI](https://github.com/bssju/dashboard-de-vendas) | Dashboard interativo construído a partir de dados reais de CRM com 8.800 oportunidades de vendas. Modelagem de 4 tabelas, criação de métricas e visualizações de receita, taxa de conversão (63%) e desempenho por vendedor, produto e região. | Power BI, DAX, Power Query |
 | [Detecção de Tweets sobre Desastres — Modelo de Classificação com NLP](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Modelo para classificar automaticamente se um tweet relata um desastre real ou não. Inclui limpeza de texto, extração de features linguísticas e combinação de três algoritmos ensemble. Resultado: F1-Score de 0,80 no Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
 | [Reconhecimento de Dígitos Manuscritos — Rede Neural com 98% de Acurácia](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Rede neural treinada para identificar dígitos manuscritos (0–9) a partir de imagens. Inclui aumento de dados para melhorar a generalização e técnicas de regularização para evitar overfitting. Resultado: 98% de acurácia no Kaggle. | Python, Keras, TensorFlow |
+| [Modelagem Preditiva de Espectros ATR-FTIR — Predição Quantitativa de Concentração](https://github.com/bssju/modelagem-preditiva-de-espectros-atr-ftir) | Comparação de quatro modelos de regressão (Ridge, PLS, SVR, LightGBM) para prever a concentração de duas soluções a partir de espectros ATR-FTIR, substituindo métodos analíticos convencionais. Melhor resultado: R² de 0,85 (PROP_C) e 0,77 (PROP_G). | Python, Scikit-learn, LightGBM, SciPy, NumPy |
 
 ---
 
