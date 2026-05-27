@@ -33,7 +33,7 @@ Análise Exploratória de Dados · Engenharia de Features · Classificação · 
 |---|---|---|
 | MBA — Ciência de Dados, Inteligência Artificial e Analytics | USP/Esalq | 2026 – 2027 (em andamento) |
 | Especialização — Ciência de Dados | Unicamp | 2026 – 2027 (em andamento) |
-| Pesquisador de Pós-Doutorado — Química Analítica | USP / IFSC | 2022 – 2023 |
+| Pós-Doutorado — Química Analítica | USP / IFSC | 2022 – 2023 |
 | Doutorado — Ciências | USP / IQSC | 2018 – 2022 |
 | Bacharelado — Química | USP / IQSC | 2013 – 2017 |
 
