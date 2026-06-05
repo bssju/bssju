@@ -28,19 +28,14 @@ Classificação · Regressão · Engenharia de Features · Métodos Ensemble · 
 | [Quem Vai Assinar? — Propensão de Clientes em Campanhas Bancárias](https://github.com/bssju/marketing-bancario-notebook-propensao) | Modelo de propensão para priorizar contatos em campanha telefônica bancária. O LightGBM captura 44,9% de todas as adesões ligando para apenas 10% da base (lift 4,5x). Inclui tratamento de vazamento de dados, validação temporal com detecção de concept drift e interpretação com SHAP. AUC-ROC: 0,808. | Python, LightGBM, Scikit-learn, SHAP, MLflow, Pandas |
 | &nbsp;&nbsp;&nbsp;[API de Propensão — Modelo Bancário em Produção](https://github.com/bssju/marketing-bancario-api-propensao) | Coloca em produção o modelo de propensão do projeto anterior. Inferência em lote e API REST com validação de domínio (Pydantic), autenticação, logging de previsões para monitoramento de drift e carregamento via MLflow Model Registry. | Python, FastAPI, Pydantic, LightGBM, MLflow, Docker |
 | [Previsão de Preços de Imóveis — Do Modelo Base à Produção](https://github.com/bssju/1-construcao-do-modelo-base-regressao) | Série em três etapas: modelo base com 236 features (RMSLE 0,12949) → otimização com Optuna e seleção multiobjetivo, redução de 65% das features com melhoria de 3,96% → deploy com API REST, versionamento e monitoramento de drift em Docker (RMSLE 0,12436). | Python, LightGBM, FastAPI, MLflow, Docker, Evidently, Optuna, pymoo |
+| [Identificação de Tweets sobre Desastres — Classificação com NLP](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Modelo para classificar automaticamente se um tweet relata um desastre real ou não. Limpeza de texto, extração de features linguísticas e combinação de três algoritmos ensemble. F1-Score: 0,80 no Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
+| [Reconhecimento de Dígitos Manuscritos — Rede Neural com 98% de Acurácia](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Rede neural treinada para identificar dígitos manuscritos (0–9) a partir de imagens. Inclui aumento de dados e regularização para evitar overfitting. Acurácia: 98% no Kaggle. | Python, Keras, TensorFlow |
 
 ### Análise e Visualização
 
 | Projeto | Descrição | Ferramentas |
 |---|---|---|
 | [Dashboard de Vendas — Análise de 8.800 Oportunidades no Power BI](https://github.com/bssju/dashboard-de-vendas) | Dashboard interativo construído a partir de dados reais de CRM com 8.800 oportunidades de vendas. Modelagem de 4 tabelas, criação de métricas e visualizações de receita, taxa de conversão (63%) e desempenho por vendedor, produto e região. | Power BI, DAX, Power Query |
-
-### Outros Projetos
-
-| Projeto | Descrição | Ferramentas |
-|---|---|---|
-| [Identificação de Tweets sobre Desastres — Classificação com NLP](https://github.com/bssju/identificacao-de-tweets-sobre-desastres-reais) | Modelo para classificar automaticamente se um tweet relata um desastre real ou não. Limpeza de texto, extração de features linguísticas e combinação de três algoritmos ensemble. F1-Score: 0,80 no Kaggle. | Python, NLTK, Gensim, Word2Vec, Scikit-learn |
-| [Reconhecimento de Dígitos Manuscritos — Rede Neural com 98% de Acurácia](https://github.com/bssju/reconhecimento-de-digitos-manuscritos) | Rede neural treinada para identificar dígitos manuscritos (0–9) a partir de imagens. Inclui aumento de dados e regularização para evitar overfitting. Acurácia: 98% no Kaggle. | Python, Keras, TensorFlow |
 
 ---
 
